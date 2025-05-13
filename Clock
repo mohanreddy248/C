@@ -1,0 +1,32 @@
+include <stdio.h>
+
+int main(){
+    int h=3;
+    int m=25;
+    int s=0;
+    while(1){
+        printf("\n\n\t\t %02d : %02d : %02d",h,m,s);
+        sleep(1);
+        system("cls");
+        s=s+1;
+        
+    }
+if(s==60)
+}
+m=m+1;
+s=0;
+}
+else if(m=60){
+    h=h+1;
+    m=0;
+    s=0;
+    
+}
+    elseif(h==12){
+        h=0;
+        m=0;
+        s=0;
+    
+    }
+return 0;
+}
