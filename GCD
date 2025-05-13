@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    int a, b, rem;
+    printf("Enter the values of a and b: ");
+    scanf("%d %d", &a, &b);
+    while (b != 0) {
+        rem = a % b;
+        a = b;
+        b = rem;
+    }
+    printf("GCD is: %d\n", a);
+    return 0;
+}
